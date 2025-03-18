@@ -1,0 +1,24 @@
+{
+    "name": "udhuong/laravel-common",
+    "version": "1.0.0",
+    "description": "Util common for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Udhuong\\LaravelCommon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "udhuong",
+            "email": "ungdinhhuong@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0|^12.0",
+        "laravel/octane": "^2.8"
+    }
+}
