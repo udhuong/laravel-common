@@ -1,6 +1,8 @@
 <?php
 
+namespace Udhuong\LaravelCommon\Presentation\Http\Controllers;
 
+use Throwable;
 use Udhuong\LaravelCommon\Presentation\Http\Response\Responder;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
